@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello World
         </a>
       </header>
     </div>
@@ -23,3 +23,5 @@ function App() {
 }
 
 export default App;
+
+// docker run -p 3000:3000 -v /app/node_modules -v C:/Users/C79451A/DockerCustomImages/frontend:/app -e CHOKIDAR_USEPOLLING=true amithreddy/frontend
